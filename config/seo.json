@@ -1,0 +1,49 @@
+{
+  "title": "myResume2.0",
+  "titleTemplate": "%s - myResume2.0",
+  "description": "",
+  "openGraph": {
+    "title": "myResume2.0",
+    "description": "",
+    "type": "website",
+    "locale": "en_US",
+    "url": "https://quratfatima906.github.io/myResume2.0",
+    "site_name": "myResume2.0",
+    "author": "myResume2.0 <quratfatima581@gmail.com>",
+    "email": "quratfatima581@gmail.com",
+    "github": "https://github.com/QuratFatima906",
+    "images": [
+      {
+        "url": "/card.png",
+        "width": 800,
+        "height": 600,
+        "alt": "myResume2.0"
+      }
+    ],
+    "socialMedia": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/QuratFatima906"
+      },
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/qurat-ul-ain-fatima/"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/@Qurat_ul_Ain"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/Ain_fatima_ch"
+      }
+    ],
+    "googleAnalyticsID": "",
+    "googleVerification": ""
+  },
+  "twitter": {
+    "handle": "",
+    "site": "",
+    "cardType": "summary_large_image"
+  }
+}

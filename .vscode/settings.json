@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "markdownlint.config": {
+    "no-bare-urls": false
+  },
+  "tailwindCSS.experimental.showPixelValues": true,
+  "css.validate": false,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+      "plaintext": "javascript"
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}

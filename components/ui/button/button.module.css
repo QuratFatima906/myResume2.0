@@ -1,0 +1,74 @@
+.root {
+  @apply relative bg-gray-800 text-white cursor-pointer 
+  border-b-2 border-black 
+  inline-flex items-center text-center
+  transition ease-in-out duration-150
+  font-semibold capitalize rounded 
+  outline-none shadow
+  mb-0;
+  max-height: 64px;
+}
+
+.root:hover {
+  @apply shadow-md border-b-0;
+}
+
+.root:focus {
+  @apply shadow-md outline-none;
+}
+
+.root[data-active] {
+  @apply bg-gray-800;
+}
+
+.loading {
+  @apply bg-gray-800 text-white border-black cursor-not-allowed;
+}
+
+/* COLORS */
+.default {
+  @apply bg-gray-800 text-white border-black;
+}
+
+.primary {
+  @apply bg-red-600 text-white border-b-2 border-red-800;
+}
+
+.secondary {
+  @apply bg-green-600 text-white border-b-2 border-green-800;
+}
+
+/* VARIANTS */
+.flat {
+  @apply border-b-0;
+}
+
+/* SIZES */
+.xl {
+  @apply px-6 py-5 leading-7 text-lg;
+}
+
+.lg {
+  @apply px-5 py-4 leading-6 text-base;
+}
+
+.md {
+  @apply px-4 py-3 leading-4 text-sm;
+}
+
+.sm {
+  @apply px-3 py-2 leading-3 text-xs;
+}
+
+.xs {
+  @apply px-2 py-1 leading-3 text-xs;
+}
+
+.disabled,
+.disabled:hover {
+  @apply text-gray-200 bg-gray-400 cursor-not-allowed border-gray-500 hover:border-b-2;
+  filter: grayscale(1);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}

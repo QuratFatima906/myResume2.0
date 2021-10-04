@@ -1,0 +1,22 @@
+{
+  "name": "myResume2.0",
+  "short_name": "myResume2.0",
+  "description": "",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#fff",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/logo-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logo-192x192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
